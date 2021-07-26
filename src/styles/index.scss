@@ -11,3 +11,44 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.about-us {
+    text-align: center;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#myButton {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 20px;
+    box-shadow: -5px 5px rgb(0 0 0 / 50%);
+    position: relative;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    background: #64a58f;
+    border: 0;
+    color: #fff;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.theButton {
+    margin: 2rem;
+}
+section.description p {
+    margin: 2rem;
+    color: rgb(63, 63, 63);
+}
+.myHeader {
+    color: #5a6a71;
+    font-weight: 400;
+    margin: 2rem;
+}
+
+
