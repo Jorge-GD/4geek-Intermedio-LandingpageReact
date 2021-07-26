@@ -1,15 +1,18 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
-import AboutUs from "./aboutUs.jsx";
+//import Ricardo's Carousel component
+import { Navbrb } from "./navbrb.jsx";
+import NewCarouselRicardo from "./newCarouselRicardo.jsx";
 
 //create your first component
 export function Home() {
 	return (
-		<div className="text-center mt-5">
-			<AboutUs />
+		<div>
+			<Navbrb/>
+			<NewCarouselRicardo />
 		</div>
 	);
 }
