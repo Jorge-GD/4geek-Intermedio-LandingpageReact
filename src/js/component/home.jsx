@@ -1,14 +1,20 @@
+import React from "react";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-import React from "react";
+
+//import Ricardo's Carousel component
+import { Navbrb } from "./navbrb.jsx";
+import NewCarouselRicardo from "./newCarouselRicardo.jsx";
 import Carta from "./carta.jsx";
 
-//create your first component CARD
+//create your first component
 export function Home() {
 	return (
-		<div className="text-center mt-5">
+		<div>
+			<Navbrb/>
+			<NewCarouselRicardo />
 			<Carta />
 		</div>
 	);
 }
-// cards......
