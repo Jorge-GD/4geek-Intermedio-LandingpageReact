@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 export function Navbrb() {
 	return (
 		<Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
-			<Container className="m-1 d-flex ">
+			<Container className="m-1 justify-content-end ">
 				<Navbar.Brand href="#home">
 					<img
 						src="https://images.squarespace-cdn.com/content/v1/5984da00cd0f685f369c47f7/1523397462966-WVM4U7L2JSYYVBL6PQH7/PIN_Logo_v3-06.png"
@@ -20,11 +20,11 @@ export function Navbrb() {
 				<Navbar.Brand href="#home">Pets in Need</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="me-auto">
-						<Nav.Link href="#features">Nuestra casa</Nav.Link>
-						<Nav.Link href="#pricing">Donaciones</Nav.Link>
+					<Nav className="me-auto ">
+						<Nav.Link href="#Nuestracasa">Nuestra casa</Nav.Link>
+						<Nav.Link href="#donaciones">Donaciones</Nav.Link>
 						<NavDropdown
-							title="Dropdown"
+							title="Bienes Materiales"
 							id="collasible-nav-dropdown">
 							<NavDropdown.Item href="#action/3.1">
 								Adoptar
@@ -36,7 +36,7 @@ export function Navbrb() {
 								Vender articulos
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">
+							<NavDropdown.Item href="http://www.ont.es/informacion/Paginas/TarjetadeDonante.aspx">
 								Venta de organos
 							</NavDropdown.Item>
 						</NavDropdown>
