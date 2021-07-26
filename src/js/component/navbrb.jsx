@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
 export function Navbrb() {
 	return (
-		<Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
+		<Navbar collapseOnSelect expand="lg" variant="dark" className="myNav">
 			<Container className="m-1 justify-content-end ">
 				<Navbar.Brand href="#home">
 					<img
