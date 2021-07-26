@@ -12,7 +12,7 @@ import Carta from "./carta.jsx";
 export function Home() {
 	return (
 		<div>
-			<Navbrb/>
+			<Navbrb />
 			<NewCarouselRicardo />
 			<Carta />
 		</div>
