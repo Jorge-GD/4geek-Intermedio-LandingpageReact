@@ -7,6 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbrb } from "./navbrb.jsx";
 import NewCarouselRicardo from "./newCarouselRicardo.jsx";
 import Carta from "./carta.jsx";
+import AboutUs from "./aboutUs.jsx";
 
 //create your first component
 export function Home() {
@@ -15,6 +16,7 @@ export function Home() {
 			<Navbrb />
 			<NewCarouselRicardo />
 			<Carta />
+			<AboutUs />
 		</div>
 	);
 }
