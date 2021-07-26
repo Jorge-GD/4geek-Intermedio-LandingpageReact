@@ -6,13 +6,15 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //import Ricardo's Carousel component
 import { Navbrb } from "./navbrb.jsx";
 import NewCarouselRicardo from "./newCarouselRicardo.jsx";
+import AboutUs from "./aboutUs.jsx";
 
 //create your first component
 export function Home() {
 	return (
 		<div>
-			<Navbrb/>
+			<Navbrb />
 			<NewCarouselRicardo />
+			<AboutUs />
 		</div>
 	);
 }
