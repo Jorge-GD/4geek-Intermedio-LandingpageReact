@@ -9,7 +9,7 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Navbrb } from "./component/navbrb.jsx";
+import { Home } from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Navbrb />, document.querySelector("#app"));
+ReactDOM.render(<Home />, document.querySelector("#app"));
